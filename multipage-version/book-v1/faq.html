@@ -1,0 +1,637 @@
+<!DOCTYPE html>
+<html lang="zxx">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!--====== Title ======-->
+  <title>Wonted - Book and publisher landing page</title>
+  <!-- ========== Favicon Ico ========== -->
+  <link rel="icon" href="assets/images/favicon.ico" />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400;1,600;1,700&display=swap"
+    rel="stylesheet" />
+  <!--====== Bootstrap css ======-->
+  <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
+  <!--====== swiper css ======-->
+  <link rel="stylesheet" href="assets/css/swiper.min.css" />
+  <!--====== IcoFont css ======-->
+  <link rel="stylesheet" href="assets/css/icofont.min.css" />
+  <!--====== Odometer css ======-->
+  <link rel="stylesheet" href="assets/css/odometer-theme-default.css" />
+  <!--====== Glightbox css ======-->
+  <link rel="stylesheet" href="assets/css/glightbox.css" />
+  <!--====== Margubs & Paddings css ======-->
+  <link rel="stylesheet" href="assets/css/margins-paddings.css" />
+  <!--====== Aos & Paddings css ======-->
+  <link rel="stylesheet" href="assets/css/aos.css" />
+  <!--====== Style css ======-->
+  <link rel="stylesheet" href="assets/css/style.css" />
+  <!--====== Custom variants ======-->
+  <link rel="stylesheet" href="assets/css/colors/oldRose.css" id="color-switch" />
+  <!-- Default color version -->
+  <link rel="stylesheet" href="assets/css/fonts/philosopher-poppins.css" id="font-switch" />
+  <!-- Default font version -->
+  <!--  Template Flat BG -->
+  <!-- <link href="assets/css/colors/wildBlue.css" rel="stylesheet"> -->
+  <!-- <link href="assets/css/colors/nomad.css" rel="stylesheet"> -->
+  <!-- <link href="assets/css/colors/viridian.css" rel="stylesheet"> -->
+  <!-- <link href="assets/css/colors/pink.css" rel="stylesheet"> -->
+  <!-- <link href="assets/css/colors/coffee.css" rel="stylesheet"> -->
+  <!-- <link href="assets/css/colors/royal.css" rel="stylesheet"> -->
+  <!-- <link href="assets/css/colors/sky.css" rel="stylesheet"> -->
+  <!-- <link href="assets/css/colors/olive.css" rel="stylesheet"> -->
+  <!--  Template Typography -->
+  <!-- <link href="assets/css/fonts/poppins-roboto.css" rel="stylesheet"> -->
+  <!-- <link href="assets/css/fonts/josepin-sourceSansPro.css" rel="stylesheet"> -->
+  <!-- <link href="assets/css/fonts/montserrat-lato.css" rel="stylesheet"> -->
+  <!-- <link href="assets/css/fonts/raleway-montserrat.css" rel="stylesheet"> -->
+  <!-- <link href="assets/css/fonts/avril-lato.css" rel="stylesheet"> -->
+  <!--====== Custom css ======-->
+  <!-- <link rel="stylesheet" href="assets/css/custom.css" /> -->
+  <!-- Demo CSS -->
+  <link rel="stylesheet" href="demo/demo.css" />
+</head>
+
+<body>
+  <div class="section-wrapper">
+    <!-- ========== Preloader start ========== -->
+    <div id="preLoader"></div>
+    <!-- ========== Preloader end ========== -->
+      <!-- ========== Header start ========== -->
+      <header class="header">
+        <div class="container">
+          <div class="row">
+            <nav class="navbar navbar-expand-lg">
+              <a class="navbar-brand" href="index.html">
+                <!-- <h1 class="m-0">WONTED</h1> -->
+                <img src="assets/images/wonted-logo.png" alt="Wonted" />
+              </a>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul id="onepage-nav" class="navbar-nav menu ms-lg-auto">
+                  <li class="nav-item">
+                    <a class="nav-link" href="index.html">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="about-book.html" class="nav-link">About Book</a>
+                  </li>
+
+                  <li class="nav-item dropdown submenu">
+                    <a
+                      class="nav-link scroll dropdown-toggle"
+                      href="#events"
+                      role="button"
+                      data-bs-toggle="dropdown"
+                      aria-expanded="false"
+                      >Events
+                    </a>
+                    <span
+                      class="sub-menu-toggle dropdown-toggle"
+                      role="button"
+                      data-bs-toggle="dropdown"
+                      aria-expanded="false"
+                    >
+                      <i class="icofont-rounded-down"></i>
+                    </span>
+                    <ul class="dropdown-menu">
+                      <li class="nav-item">
+                        <a href="all-events.html" class="nav-link"
+                          >All Events</a
+                        >
+                      </li>
+                      <li class="nav-item">
+                        <a href="single-event.html" class="nav-link"
+                          >Details Without Sidebar</a
+                        >
+                      </li>
+                      <li class="nav-item">
+                        <a href="event-left-sidebar.html" class="nav-link"
+                          >Event Left Sidebar</a
+                        >
+                      </li>
+                      <li class="nav-item">
+                        <a href="event-right-sidebar.html" class="nav-link"
+                          >Event Right Sidebar</a
+                        >
+                      </li>
+                    </ul>
+                  </li>
+                  <li class="nav-item dropdown submenu">
+                    <a
+                      class="nav-link scroll dropdown-toggle"
+                      href="#events"
+                      role="button"
+                      data-bs-toggle="dropdown"
+                      aria-expanded="false"
+                      >Pages
+                    </a>
+                    <span
+                      class="sub-menu-toggle dropdown-toggle"
+                      role="button"
+                      data-bs-toggle="dropdown"
+                      aria-expanded="false"
+                    >
+                      <i class="icofont-rounded-down"></i>
+                    </span>
+                    <ul class="dropdown-menu">
+                      <li class="nav-item">
+                        <a href="awards.html" class="nav-link">Awards</a>
+                      </li>
+                      <li class="nav-item">
+                        <a href="testimonial.html" class="nav-link"
+                          >Testimonial</a
+                        >
+                      </li>
+                      <li class="nav-item">
+                        <a href="faq.html" class="nav-link">FAQ</a>
+                      </li>
+                      <li class="nav-item">
+                        <a href="pricing.html" class="nav-link">Pricing </a>
+                      </li>
+                      <li class="nav-item">
+                        <a href="terms-conditions.html" class="nav-link"
+                          >Terms and Conditions
+                        </a>
+                      </li>
+                      <li class="nav-item">
+                        <a href="privacy-policy.html" class="nav-link"
+                          >Privacy Policy
+                        </a>
+                      </li>
+                      <li class="nav-item">
+                        <a href="404.html" class="nav-link">404 Page</a>
+                      </li>
+                      <li class="nav-item">
+                        <a href="page-without-sidebar.html" class="nav-link"
+                          >Page Without Sidebar</a
+                        >
+                      </li>
+                      <li class="nav-item">
+                        <a href="page-left-sidebar.html" class="nav-link"
+                          >Page Left Sidebar</a
+                        >
+                      </li>
+                      <li class="nav-item">
+                        <a href="page-right-sidebar.html" class="nav-link"
+                          >Page Right Sidebar</a
+                        >
+                      </li>
+                    </ul>
+                  </li>
+                  <li class="nav-item dropdown submenu">
+                    <a
+                      class="nav-link scroll dropdown-toggle"
+                      href="#blog"
+                      role="button"
+                      data-bs-toggle="dropdown"
+                      aria-expanded="false"
+                      >Blog
+                    </a>
+                    <span
+                      class="sub-menu-toggle dropdown-toggle"
+                      role="button"
+                      data-bs-toggle="dropdown"
+                      aria-expanded="false"
+                    >
+                      <i class="icofont-rounded-down"></i>
+                    </span>
+                    <ul class="dropdown-menu">
+                      <li class="nav-item">
+                        <a href="blog-grid.html" class="nav-link">Blog Grid</a>
+                      </li>
+                      <li class="nav-item">
+                        <a href="blog-list.html" class="nav-link">Blog List</a>
+                      </li>
+                      <li class="nav-item">
+                        <a href="left-sidebar.html" class="nav-link"
+                          >Left Sidebar</a
+                        >
+                      </li>
+                      <li class="nav-item">
+                        <a href="right-sidebar.html" class="nav-link"
+                          >Right Sidebar</a
+                        >
+                      </li>
+                      <li class="nav-item">
+                        <a href="single-blog.html" class="nav-link"
+                          >Details Without Sidebar</a
+                        >
+                      </li>
+                      <li class="nav-item">
+                        <a href="blog-left-sidebar.html" class="nav-link"
+                          >Details Left Sidebar</a
+                        >
+                      </li>
+                      <li class="nav-item">
+                        <a href="blog-right-sidebar.html" class="nav-link"
+                          >Details Right Sidebar</a
+                        >
+                      </li>
+                    </ul>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="contact-us.html">Contact Us</a>
+                  </li>
+                </ul>
+              </div>
+              <button
+                class="navbar-toggler collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent"
+                aria-expanded="false"
+                aria-label="Toggle navigation"
+              >
+                <span></span><span></span><span></span><span></span><span></span
+                ><span></span>
+              </button>
+            </nav>
+          </div>
+        </div>
+      </header>
+      <!-- ========== Header end ========== -->
+    <!-- ========== All events hero start ========== -->
+    <section id="all-events" class="all-blogs hero__padding overflow-hidden position-relative bg-one">
+      <div class="container">
+        <div class="row">
+          <div class="blog-title">
+            <h1 class="display-3" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="600">
+              FAQ Page
+            </h1>
+            <ul>
+              <li data-aos="fade-up" data-aos-duration="1000" data-aos-delay="650">
+                <a href="index.html">Home</a>
+              </li>
+              <li data-aos="fade-up" data-aos-duration="1000" data-aos-delay="700">
+                <i class="icofont-rounded-right"></i>
+              </li>
+              <li data-aos="fade-up" data-aos-duration="1000" data-aos-delay="750">
+                FAQ Page
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- ========== All events hero end ========== -->
+    <!-- ========== Chapters section start ========== -->
+    <section id="chapters" class="section-padding">
+      <div class="container">
+        <div class="row gx-5">
+          <div class="col-lg-6 mb-4 mb-lg-0 d-flex justify-content-center align-items-center" data-aos="fade-right"
+            data-aos-duration="1000" data-aos-delay="200">
+            <img src="assets/images/hero-2.png" alt="" class="img-fluid d-block" />
+          </div>
+          <div class="col-lg-6" data-aos="fade-left" data-aos-duration="1000" data-aos-delay="200">
+            <div class="accordion accordion-flush faqs-accordion mt-4 mt-lg-0" id="accordionFlushExample">
+              <!-- accordion start -->
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="flush-headingOne">
+                  <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#flush-collapseOne" aria-expanded="true" aria-controls="flush-collapseOne">
+                    1. What is the genre of the book?
+                  </button>
+                </h2>
+                <div id="flush-collapseOne" class="accordion-collapse collapse show" aria-labelledby="flush-headingOne"
+                  data-bs-parent="#accordionFlushExample">
+                  <p class="accordion-body text-secondary">
+                    This book falls under the [genre], offering readers a mix
+                    of [specific elements, e.g., adventure, romance, suspense,
+                    etc.].
+                  </p>
+                </div>
+              </div>
+              <!-- accordion end -->
+              <!-- accordion start -->
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="flush-headingTwo">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                    2. Who would enjoy this book?
+                  </button>
+                </h2>
+                <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo"
+                  data-bs-parent="#accordionFlushExample">
+                  <p class="accordion-body text-secondary">
+                    Fans of [specific genres/authors/books] will likely enjoy
+                    this book, especially those who appreciate [mention key
+                    themes or elements].
+                  </p>
+                </div>
+              </div>
+              <!-- accordion end -->
+              <!-- accordion start -->
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="flush-headingThree">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                    3. Where can I purchase the book?
+                  </button>
+                </h2>
+                <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree"
+                  data-bs-parent="#accordionFlushExample">
+                  <p class="accordion-body text-secondary">
+                    The book is available at major retailers including [list
+                    of retailers: Amazon, Barnes & Noble, etc.], and also at
+                    local bookstores.
+                  </p>
+                </div>
+              </div>
+              <!-- accordion end -->
+              <!-- accordion start -->
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="flush-headingFour">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseFour">
+                    4. Are there any themes or messages in the book?
+                  </button>
+                </h2>
+                <div id="flush-collapseFour" class="accordion-collapse collapse" aria-labelledby="flush-headingFour"
+                  data-bs-parent="#accordionFlushExample">
+                  <p class="accordion-body text-secondary">
+                    The book explores themes such as [list themes, e.g.,
+                    friendship, resilience, love, etc.] and conveys messages
+                    about [mention any significant messages or moral lessons].
+                  </p>
+                </div>
+              </div>
+              <!-- accordion end -->
+              <!-- accordion start -->
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="flush-headingFive">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#flush-collapseFive" aria-expanded="false" aria-controls="flush-collapseFive">
+                    5. Is the book appropriate for all ages?
+                  </button>
+                </h2>
+                <div id="flush-collapseFive" class="accordion-collapse collapse" aria-labelledby="flush-headingFive"
+                  data-bs-parent="#accordionFlushExample">
+                  <p class="accordion-body text-secondary">
+                    The book is suitable for [mention age group, e.g., young
+                    adults, adults, all ages], but it contains [mention any
+                    content warnings if necessary, e.g., mild language, mature
+                    themes].
+                  </p>
+                </div>
+              </div>
+              <!-- accordion end -->
+              <!-- accordion start -->
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="flush-headingSix">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#flush-collapseSix" aria-expanded="false" aria-controls="flush-collapseSix">
+                    6. Are there any book signings or events planned?
+                  </button>
+                </h2>
+                <div id="flush-collapseSix" class="accordion-collapse collapse" aria-labelledby="flush-headingSix"
+                  data-bs-parent="#accordionFlushExample">
+                  <p class="accordion-body text-secondary">
+                    Yes, there are upcoming events and book signings. Check
+                    [author's website/event page] for the latest schedule and
+                    locations.
+                  </p>
+                </div>
+              </div>
+              <!-- accordion end -->
+              <!-- accordion start -->
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="flush-headingSeven">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#flush-collapseSeven" aria-expanded="false" aria-controls="flush-collapseSeven">
+                    7. Are there any reviews available?
+                  </button>
+                </h2>
+                <div id="flush-collapseSeven" class="accordion-collapse collapse" aria-labelledby="flush-headingSeven"
+                  data-bs-parent="#accordionFlushExample">
+                  <p class="accordion-body text-secondary">
+                    Yes, the book has received positive reviews from [mention
+                    sources, e.g., critics, readers]. You can find reviews on
+                    [platforms like Goodreads, Amazon, etc.].
+                  </p>
+                </div>
+              </div>
+              <!-- accordion end -->
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- ========== Chapters section end ========== -->
+    <!-- ========== Footer section Start ========== -->
+    <footer class="footer bg-one overflow-hidden">
+      <div class="container">
+        <div class="footer__topv2 m-50px-t m-50px-b">
+          <div class="row">
+            <div class="col-md-6 col-lg-3 mb-4 mb-lg-0" data-aos="fade-up" data-aos-duration="1000"
+              data-aos-delay="200">
+              <div class="footer__topv2__about">
+                <div class="logo">
+                  <img src="assets//images/wonted-logo.png" alt="Footer Logo" />
+                </div>
+                <div class="text">
+                  <p>
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                    Magni minima esse quos voluptatem quo consequuntur commodi
+                    eius sed. Alias, quisquam?
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-3 mb-4 mb-lg-0" data-aos="fade-up" data-aos-duration="1000"
+              data-aos-delay="250">
+              <div class="footer__topv2__link">
+                <div class="title">
+                  <p>Useful Links</p>
+                </div>
+                <ul class="link">
+                  <li><a href="404.html">404 Page</a></li>
+                  <li>
+                    <a href="page-without-sidebar.html">Page Without Sidebar</a>
+                  </li>
+                  <li>
+                    <a href="page-left-sidebar.html">Page Left Sidebar</a>
+                  </li>
+                  <li>
+                    <a href="page-right-sidebar.html">Page Right Sidebar</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-3 mb-4 mb-lg-0" data-aos="fade-up" data-aos-duration="1000"
+              data-aos-delay="300">
+              <div class="footer___topV2__contact">
+                <div class="title">
+                  <p>Contact Us</p>
+                </div>
+                <ul class="info">
+                  <li>
+                    <i class="icofont-google-map"></i><a href="#">San Fransisco CA 94107,US</a>
+                  </li>
+                  <li>
+                    <i class="icofont-email"></i><a mailto="wonted@gmail.com">wonted@gmail.com</a>
+                  </li>
+                  <li>
+                    <i class="icofont-phone"></i><a tel="+123 345123 556">+123 345123 556</a>
+                  </li>
+                </ul>
+                <ul class="social-icon">
+                  <li>
+                    <a href="#"><i class="icofont-facebook"></i></a>
+                  </li>
+                  <li>
+                    <a href="#"><i class="icofont-twitter"></i></a>
+                  </li>
+                  <li>
+                    <a href="#"><i class="icofont-instagram"></i></a>
+                  </li>
+                  <li>
+                    <a href="#"><i class="icofont-brand-whatsapp"></i></a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-3" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="350">
+              <div class="footer___topV2__newsletter">
+                <div class="title">
+                  <p>Our Newsletter</p>
+                </div>
+                <div class="text">
+                  <p>
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                    Molestias, omnis?
+                  </p>
+                </div>
+                <form action="assets/subscribe/subscribe.php" id="subscribe">
+                  <div class="input-group aos-init aos-animate">
+                    <input type="email" name="email" placeholder="Email" id="subscriber-email" />
+                    <button class="button button__primary" id="subscribe-button">
+                      <span>Subscribe</span>
+                    </button>
+                    <div data-lastpass-icon-root="true" style="
+                          position: relative !important;
+                          height: 0px !important;
+                          width: 0px !important;
+                          float: left !important;
+                        "></div>
+                  </div>
+                  <div class="result">
+                    <p class="success-msg aos-init aos-animate">
+                      <i class="icofont-check"></i> Your email has been
+                      stored!
+                    </p>
+                    <p class="error-msg aos-init aos-animate">
+                      <i class="icofont-close"></i> Sorry! Something went
+                      wrong!
+                    </p>
+                  </div>
+                </form>
+                <!-- Mailchimp subscription form -->
+                <!-- <form action="#" id="subscribe-mailchimp" data-wow-duration="1.5s">
+                    <div class="input-group" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="750">
+                      <input type="email" name="email" placeholder="Email" id="subscriber-email" />
+                      <button class="button button__primary" id="subscribe-button">
+                        <span>Subscribe</span>
+                      </button>
+                    </div>
+                    <div class="result">
+                        <p class="success-msg" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="800"><i class="icofont-check"></i> You email has been stored!</p>
+                        <p class="error-msg" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="850"><i class="icofont-close"></i> Sorry! Something went wrong!</p>
+                    </div>
+                  </form> -->
+                <!-- subscription form end -->
+              </div>
+            </div>
+          </div>
+        </div>
+        <hr />
+        <div class="footer__copyright m-20px-t m-20px-b">
+          <div class="row">
+            <div class="col-12">
+              <p class="m-0 text-center">
+                &copy; 2024 All right reserved. Made with
+                <i class="icofont-heart"></i> by <a href="#">ThemeAtelier</a>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- ========== Footer section End ========== -->
+  </div>
+  <!--====== jquery js ======-->
+  <script src="assets/js/jquery.min.js"></script>
+  <!--====== Bootstrap js ======-->
+  <script src="assets/js/bootstrap.bundle.min.js"></script>
+  <!--====== One page nav ======-->
+  <script src="assets/js/onepageNav.js"></script>
+  <!--====== Ajaxchimp js ======-->
+  <script src="assets/js/jquery.ajaxchimp.min.js"></script>
+  <!--====== Glightbox js ======-->
+  <script src="assets/js/glightbox.js"></script>
+  <!--====== Glightbox js ======-->
+  <script src="assets/js/swiper.min.js"></script>
+  <!--====== Appear js ======-->
+  <script src="assets/js/jquery.appear.min.js"></script>
+  <!--====== Odometer js ======-->
+  <script src="assets/js/odometer.min.js"></script>
+  <!--====== Aos js ======-->
+  <script src="assets/js/aos.js"></script>
+  <!--====== Jquery validate js ======-->
+  <script src="assets/js/jquery.validate.js"></script>
+  <!--====== Isotope js ======-->
+  <script src="assets/js/isotope.pkgd.min.js"></script>
+  <!--====== Custom js ======-->
+  <script src="assets/js/custom.js"></script>
+  <!-- =========================================================
+      STYLE SWITCHER | ONLY FOR DEMO NOT INCLUDED IN MAIN FILES
+  ============================================================== -->
+  <script src="demo/demo.js"></script>
+  <div class="demo-style-switch" id="switch-style">
+    <a id="toggle-switcher" class="switch-button" title="Change Styles"><i class="icofont-ui-settings"></i></a>
+    <div class="switched-options">
+      <div class="config-title">BG variants:</div>
+      <ul class="styles">
+        <li>
+          <div class="oldRose color" id="oldRose"></div>
+        </li>
+        <li>
+          <div class="wildBlue color" id="wildBlue"></div>
+        </li>
+        <li>
+          <div class="nomad color" id="nomad"></div>
+        </li>
+        <li>
+          <div class="viridian color" id="viridian"></div>
+        </li>
+        <li>
+          <div class="pink color" id="pink"></div>
+        </li>
+        <li>
+          <div class="coffee color" id="coffee"></div>
+        </li>
+        <li>
+          <div class="royal color" id="royal"></div>
+        </li>
+        <li>
+          <div class="sky color" id="sky"></div>
+        </li>
+        <li>
+          <div class="olive color" id="olive"></div>
+        </li>
+      </ul>
+      <div class="config-title">Font variants:</div>
+      <select id="chose-typography">
+        <option value="philosopher-poppins">Philosopher + Poppins</option>
+        <option value="poppins-roboto">Poppins + Roboto</option>
+        <option value="josepin-sourceSansPro">Josepin + SourceSansPro</option>
+        <option value="montserrat-lato">Montserrat + Lato</option>
+        <option value="raleway-montserrat">Raleway + Montserrat</option>
+        <option value="avril-lato">Avril + Lato</option>
+      </select>
+    </div>
+  </div>
+</body>
+
+</html>
